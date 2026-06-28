@@ -17,6 +17,41 @@ p {
 }
 #picture {
   text-align: center;
+  vertical-align: middle;
+}
+#menu-list{
+  float:left;
+  width:50%;
+}
+#menu-list{
+  letter-spacing: 1.5 px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  skew-x: 5deg;
+}
+#menu-body {
+  background-image: url('tuvya3.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#picture2{
+  float:right;
+  width:40%;
+  text-align:center;
+  transform: rotate(-7deg);
+
+}
+#picture_img2{
+  transition: transform 0.3s ease;
+
+}
+#picture_img2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.clear-fix {
+  clear: both;
 }
 #picture_img {
   margin-top: 20px;
