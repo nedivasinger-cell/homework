@@ -10,7 +10,7 @@ body {
   color: #333;
   position:fixed;
   top: 20px;
-  background-color: blue;
+ 
   
 }
 .about-description {
@@ -260,3 +260,48 @@ flex-direction: column; /* Stack photos if screen size gets tiny */
 width: 100%;
 }
 }
+
+
+
+
+
+        /* Full-width header banner acting as the top border */
+        .woodsy-top-border {
+            width: 100%;
+            margin: 0;
+            padding: 25px 0;
+            text-align: center;
+            
+            /* Rich wood grain color scheme using a linear gradient */
+            background: linear-gradient(to bottom, #4a2c11, #361f0a);
+            
+            /* Thick, earthy forest green bottom accent border */
+            border-bottom: 6px solid #2e4a29;
+            
+            /* Soft shadow to give depth against the page */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Branding text styled to integrate with the nature theme */
+        .brand-text {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            
+            /* Creamy leaf-like color to contrast with the dark wood background */
+            color: #f4eae1;
+            
+            /* Subtle text shadow to look like the text is carved/embossed */
+            text-shadow: 2px 2px 0px #1a0e05, -1px -1px 0px #5c3a1a;
+        }
+
+        /* Nature-inspired subtext decoration */
+        .brand-subtext {
+            color: #a7c49e; /* Soft sage green */
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-top: 5px;
+            display: block;
+        }
