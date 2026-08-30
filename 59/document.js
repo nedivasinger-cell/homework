@@ -53,3 +53,4 @@ function capital2(str){
     return str === str.toUpperCase();
 }
 console.log(some1(arr2,capital2));
+

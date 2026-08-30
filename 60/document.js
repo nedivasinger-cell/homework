@@ -17,14 +17,16 @@ function trackDose(medicationName, initialDose) {
         console.log(`Take ${dose} of ${name}`);
     }
 
-    getInstructions(medicationName, initialDose);
-}
-
-function adjustDosage(doctorPin, newDosage) {
+    function adjustDosage(doctorPin, newDosage) {
     if (doctorPin === 1234 && newDosage > 0) {
         const med = factory();
         med.setDose(newDosage);
     }
+    else{
+        console.log("Invalid doctor pin or dosage");
+    }
+   
+}
 }
         
 
