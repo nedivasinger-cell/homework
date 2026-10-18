@@ -1,1 +1,7 @@
-.DS_Store
+
+(function())
+use strict
+const response = fetch('https://api.github.com/repos/ndivasinger/homework/commits');
+
+console.log(response);
+request.then(r => console.log(r));
