@@ -4,32 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Recipes</title>
-  <style>
-    body { font-family: system-ui, Arial; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-    header { display:flex; justify-content:space-between; align-items:center; }
-    #list ul { list-style: none; padding: 0; }
-    #list li { margin: .5rem 0; }
-    a.recipe-link { color: #0366d6; text-decoration: none; }
-    a.recipe-link:hover { text-decoration: underline; }
-    #detail { margin-top: 1.5rem; border-top: 1px solid #eee; padding-top: 1rem; }
-    .back { display:inline-block; margin-bottom: .5rem; color:#666; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Recipes</h1>
-    <small id="count"></small>
-  </header>
+ <header>recipes </header>
+<select id="recipes">
+    <option>
+        
+    </option hidden></select>
 
-  <main>
-    <section id="list" aria-labelledby="recipes-heading">
-      <h2 id="recipes-heading">All recipes</h2>
-      <div id="list-container">Loading…</div>
-    </section>
+    <h2 id="name"></h2>
+    <img id="picture" />
+    <p id="ingredients"></p>
 
-    <section id="detail" aria-live="polite"></section>
-  </main>
+  <script src="file.js" type="module"></script>
 
-  <script src="file.js" defer></script>
 </body>
 </html>
